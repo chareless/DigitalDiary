@@ -197,7 +197,8 @@ namespace Digital_Diary
         }
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.denizsaribayir.cf/dijitalgunluk.html#version");
+            UpdateForm form5 = new UpdateForm();
+            form5.Show();
         }
         private void patchNotesToolStripMenuItem_Click(object sender, EventArgs e)
         {

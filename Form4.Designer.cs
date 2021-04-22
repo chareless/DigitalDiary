@@ -47,9 +47,9 @@
             this.topPanel.BackColor = System.Drawing.Color.White;
             this.topPanel.Controls.Add(this.programNameLabel);
             this.topPanel.Location = new System.Drawing.Point(2, 0);
-            this.topPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.topPanel.Margin = new System.Windows.Forms.Padding(2);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(782, 118);
+            this.topPanel.Size = new System.Drawing.Size(837, 118);
             this.topPanel.TabIndex = 0;
             // 
             // programNameLabel
@@ -60,9 +60,9 @@
             this.programNameLabel.Location = new System.Drawing.Point(8, 37);
             this.programNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.programNameLabel.Name = "programNameLabel";
-            this.programNameLabel.Size = new System.Drawing.Size(233, 31);
+            this.programNameLabel.Size = new System.Drawing.Size(256, 31);
             this.programNameLabel.TabIndex = 0;
-            this.programNameLabel.Text = "Dijital Günlük v1.5";
+            this.programNameLabel.Text = "Dijital Günlük v1.6.0";
             // 
             // nameLabel
             // 
@@ -82,9 +82,9 @@
             this.versionLabel.Location = new System.Drawing.Point(10, 158);
             this.versionLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.versionLabel.Name = "versionLabel";
-            this.versionLabel.Size = new System.Drawing.Size(77, 17);
+            this.versionLabel.Size = new System.Drawing.Size(89, 17);
             this.versionLabel.TabIndex = 2;
-            this.versionLabel.Text = "Sürüm: 1.5";
+            this.versionLabel.Text = "Sürüm: 1.6.0";
             // 
             // developerLabel
             // 
@@ -93,9 +93,9 @@
             this.developerLabel.Location = new System.Drawing.Point(10, 183);
             this.developerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.developerLabel.Name = "developerLabel";
-            this.developerLabel.Size = new System.Drawing.Size(154, 17);
+            this.developerLabel.Size = new System.Drawing.Size(191, 17);
             this.developerLabel.TabIndex = 3;
-            this.developerLabel.Text = "© 2020 Deniz Sarıbayır";
+            this.developerLabel.Text = "© 2020-2021 Deniz Sarıbayır";
             // 
             // usageLabel
             // 
@@ -113,9 +113,9 @@
             this.downPanel.BackColor = System.Drawing.Color.White;
             this.downPanel.Controls.Add(this.specificationsLabel);
             this.downPanel.Location = new System.Drawing.Point(10, 262);
-            this.downPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.downPanel.Margin = new System.Windows.Forms.Padding(2);
             this.downPanel.Name = "downPanel";
-            this.downPanel.Size = new System.Drawing.Size(751, 182);
+            this.downPanel.Size = new System.Drawing.Size(818, 182);
             this.downPanel.TabIndex = 8;
             // 
             // specificationsLabel
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.ClientSize = new System.Drawing.Size(839, 453);
             this.Controls.Add(this.licenseLabel);
             this.Controls.Add(this.downPanel);
             this.Controls.Add(this.usageLabel);
@@ -153,7 +153,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.topPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AboutForm";

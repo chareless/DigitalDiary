@@ -117,17 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="topPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="specificationsLabel.Text" xml:space="preserve">
-    <value> Dijital Günlük, kişinin kendi belirlediği kullanıcı adı ve şifreyle giriş yapabildiği bir günlük tutma programıdır. Yazdığınız
- anılar sadece sizin bilgisayarınıza şifrelenerek kaydolur. Daha önce yazdığınız bir günü tekrar okuyabilir ve düzenleyebilirsiniz. 
- Metninizin yazı boyutunu değiştirebilirsiniz.
- Programı çeşitli renk temalarında kullanabilirsiniz, dili Türkçe veya İngilizce olarak değiştirebilirsiniz.
- Programa giriş için kullandığınız giriş bilgilerini değiştirebilirsiniz. Verilerinizi yedekleyebilirsiniz. Yenilikleri takip edebilirsiniz ve
- sürüm notlarını görüntüleyebilirsiniz. Herhangi bir sorun veya öneri bildirmek için geliştiriciyle iletişime geçebilirsiniz.</value>
-  </data>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
