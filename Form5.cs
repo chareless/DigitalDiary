@@ -52,7 +52,7 @@ namespace Digital_Diary
 
         private void checkUpdates()
         {
-            Uri url = new Uri("http://www.denizsaribayir.cf/dijitalgunluk.html");
+            Uri url = new Uri("http://www.saribayirdeniz.cf/dijitalgunluk.html");
             WebClient client = new WebClient();
             client.Encoding = Encoding.UTF8;
             string html = client.DownloadString(url);

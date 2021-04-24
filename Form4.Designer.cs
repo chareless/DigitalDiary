@@ -84,7 +84,7 @@
             this.versionLabel.Name = "versionLabel";
             this.versionLabel.Size = new System.Drawing.Size(89, 17);
             this.versionLabel.TabIndex = 2;
-            this.versionLabel.Text = "Sürüm: 1.6.0";
+            this.versionLabel.Text = "Sürüm: 1.6.1";
             // 
             // developerLabel
             // 
