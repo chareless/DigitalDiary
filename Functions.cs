@@ -35,7 +35,7 @@ namespace Digital_Diary
         public static string[] title = new string[maxT];
         public static string[] menuName = new string[maxM];
         public static string[] myFile = new string[maxI];
-        public static string version = "1.6.1";
+        public static string version = "1.6.2";
 
         public static void isFileHere()
         {
@@ -295,9 +295,9 @@ namespace Digital_Diary
                 title[8] = "Programı Yeniden Başlatıldıktan Sonra Güncellenecektir.";
                 title[9] = "Text Dosyası Seçiniz..";
                 title[10] = "Hatalı Dosya Seçimi!";
-                title[11] = "Dijital Günlük v1.6.1";
+                title[11] = "Dijital Günlük v1.6.2";
                 title[12] = "Dijital Günlük";
-                title[13] = "Sürüm: 1.6.1";
+                title[13] = "Sürüm: 1.6.2";
                 title[14] = "Kullanım Özellikleri";
                 title[15] = "Dijital Günlük, kişinin kendi belirlediği kullanıcı adı ve şifreyle giriş yapabildiği bir günlük tutma programıdır. Yazdığınız\n" +
  "anılar sadece sizin bilgisayarınıza şifrelenerek kaydolur.Daha önce yazdığınız bir günü tekrar okuyabilir ve\n" +
@@ -315,8 +315,8 @@ namespace Digital_Diary
                 title[22] = "Dosya Bulunamadı.";
                 title[23] = "Yedekleme Başarılı.";
                 title[24] = "Geri Yükleme Başarılı.";
-                title[25] = "Sürüm Günceldir.";
-                title[26] = "Güncelleme Mevcut!";
+                title[25] = "Sürüm Güncel";
+                title[26] = "Güncelleme Mevcut";
 
                 menuName[0] = "Tema";
                 menuName[1] = "Karanlık";
@@ -376,9 +376,9 @@ namespace Digital_Diary
                 title[8] = "Will be Updated After Restarting the Program";
                 title[9] = "Select TXT File..";
                 title[10] = "Incorrect File Selection!";
-                title[11] = "Digital Diary v1.6.1";
+                title[11] = "Digital Diary v1.6.2";
                 title[12] = "Digital Diary";
-                title[13] = "Version: 1.6.1";
+                title[13] = "Version: 1.6.2";
                 title[14] = "Usage Specifications";
                 title[15] = "Digital Journal is a logging program where the person can log in with his / her own username and password.\n"+
                    "The memories you write are saved only encrypted on your computer. You can read and edit a day that you wrote\n" +
@@ -395,8 +395,8 @@ namespace Digital_Diary
                 title[22] = "File Not Found";
                 title[23] = "Backup Successful.";
                 title[24] = "Restore Successful.";
-                title[25] = "Version is up to date.";
-                title[26] = "Update available!";
+                title[25] = "Version is up to date";
+                title[26] = "Update available";
 
                 menuName[0] = "Theme";
                 menuName[1] = "Dark";

@@ -80,7 +80,7 @@ namespace Digital_Diary
 
         private void updateButton_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/chareless/RandomTools-for-Windows/archive/master.zip");
+            System.Diagnostics.Process.Start("https://github.com/chareless/DigitalDiary-for-Windows/archive/refs/heads/master.zip");
         }
 
         private void menuNames()
