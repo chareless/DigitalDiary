@@ -76,6 +76,18 @@ namespace Digital_Diary
             signIn(nickNameTextBox.Text, passwordTextBox2.Text);
         }
 
+        private void showPassCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (showPassCheckBox.Checked == true)
+            {
+                passwordTextBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                passwordTextBox2.PasswordChar = '*';
+            }
+        }
+
         private void darkToolStripMenuItem_Click(object sender, EventArgs e)
         {
             saveSettings("dark",languageGet());
@@ -315,6 +327,7 @@ namespace Digital_Diary
             greenToolStripMenuItem.Text = menuName[37];
             redToolStripMenuItem.Text = menuName[38];
             purpleToolStripMenuItem.Text = menuName[39];
+            showPassCheckBox.Text = menuName[44];
         }
     }
 }
