@@ -62,7 +62,7 @@
             this.programNameLabel.Name = "programNameLabel";
             this.programNameLabel.Size = new System.Drawing.Size(256, 31);
             this.programNameLabel.TabIndex = 0;
-            this.programNameLabel.Text = "Dijital Günlük v1.6.3";
+            this.programNameLabel.Text = "Dijital Günlük v1.6.4";
             // 
             // nameLabel
             // 
@@ -84,7 +84,7 @@
             this.versionLabel.Name = "versionLabel";
             this.versionLabel.Size = new System.Drawing.Size(89, 17);
             this.versionLabel.TabIndex = 2;
-            this.versionLabel.Text = "Sürüm: 1.6.3";
+            this.versionLabel.Text = "Sürüm: 1.6.4";
             // 
             // developerLabel
             // 

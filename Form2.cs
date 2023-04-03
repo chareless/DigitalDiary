@@ -193,7 +193,7 @@ namespace Digital_Diary
 
         private void supportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/#contact");
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/#contact");
         }
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -202,7 +202,7 @@ namespace Digital_Diary
         }
         private void patchNotesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/dijitalgunluk.html#update");
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/dijitalgunluk.html#update");
         }
         private void changeInfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -258,11 +258,11 @@ namespace Digital_Diary
         }
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/#contact");
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/#contact");
         }
         private void commentToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.saribayirdeniz.cf/blog.html#yorum");
+            System.Diagnostics.Process.Start("https://chareless.github.io/saribayirdeniz/blog.html#yorum");
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)

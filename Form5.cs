@@ -52,30 +52,41 @@ namespace Digital_Diary
 
         private void checkUpdates()
         {
-            Uri url = new Uri("http://www.saribayirdeniz.cf/dijitalgunluk.html");
-            WebClient client = new WebClient();
-            client.Encoding = Encoding.UTF8;
-            string html = client.DownloadString(url);
-            HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
-            dokuman.LoadHtml(html);
-            HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div/div/p[6]/h7");
-            foreach (HtmlNode title in titles)
+            try
             {
-                lastVersionLabel.Text = title.InnerText;
-            }
+                Uri url = new Uri("https://chareless.github.io/saribayirdeniz/dijitalgunluk.html");
+                WebClient client = new WebClient();
+                client.Encoding = Encoding.UTF8;
+                string html = client.DownloadString(url);
+                HtmlAgilityPack.HtmlDocument dokuman = new HtmlAgilityPack.HtmlDocument();
+                dokuman.LoadHtml(html);
+                HtmlNodeCollection titles = dokuman.DocumentNode.SelectNodes("/html/body/div/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div/div/p[6]/h7");
+                foreach (HtmlNode title in titles)
+                {
+                    lastVersionLabel.Text = title.InnerText;
+                }
 
-            if (currentVersionLabel.Text == lastVersionLabel.Text)
-            {
-                updateButton.Enabled = false;
-                updateButton.Visible = false;
-                versionLabel.Text = title[25];
+                if (currentVersionLabel.Text == lastVersionLabel.Text)
+                {
+                    updateButton.Enabled = false;
+                    updateButton.Visible = false;
+                    versionLabel.Text = title[25];
+                }
+                else
+                {
+                    updateButton.Enabled = true;
+                    updateButton.Visible = true;
+                    versionLabel.Text = title[26];
+                }
             }
-            else
+            catch
             {
+                lastVersionLabel.Text = title[27];
                 updateButton.Enabled = true;
                 updateButton.Visible = true;
-                versionLabel.Text = title[26];
+                versionLabel.Text = title[28];
             }
+           
         }
 
         private void updateButton_Click(object sender, EventArgs e)
